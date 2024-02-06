@@ -39,18 +39,23 @@ body {
   height: 32px;
   width: 32px;
   object-fit: contain;
+  position: absolute;
 }
 
 
-.navbar a:hover {
+.navbar .navbutton:hover {
   /* background-color: #ccc;
   color: #fff; */
   position: relative;
 }
 
+.navbar .logo {
+  background: none;
+  border: none;
+}
 
 
-.navbar a:hover:after {
+.navbar .navbutton:hover:after {
   content: '';
   position: absolute;
   bottom: -1px;
