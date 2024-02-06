@@ -1,17 +1,26 @@
 html {
   height: 100%;
   width: 100%;
+  background: linear-gradient(to bottom, #f0f0f0, #3b3fa0);
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
-html {
-  background: linear-gradient(to bottom, #f0f0f0, #3b3fa0);
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar {
+  background-color: white;
+  box-shadow: 0 0px 5px 1px black;
+  width: 100%;
+  height: 50px;
 }
 
 .navbar ul {
   display: flex;
   list-style: none;
-
-  padding: 10px;
+  padding-top: 15px;
   margin: 0px;
   border-radius: 10px;
   justify-content: center;
@@ -26,21 +35,16 @@ html {
 }
 
 
-
-
-
 .logo {
   height: 32px;
-
   width: 32px;
-
   object-fit: contain;
 }
 
 
 .navbar a:hover {
-  background-color: #ccc;
-  color: #fff;
+  /* background-color: #ccc;
+  color: #fff; */
   position: relative;
 }
 
@@ -61,18 +65,19 @@ html {
 
 @keyframes rainbow {
   0% {
-    background-position: 0 0;
+    color: black;
   }
 
   100% {
-    background-position: 100% 0;
+    color: linear-gradient(to left, #4661a0, #5bbde6, #dd2222, orange, #fbd074);
   }
 }
 
 .textbox {
-  background-color: #e9e9e9;
+  background-color: white;
+  box-shadow: 0 0 4px 1px black;
   padding: 10px;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 8px;
   justify-content: center;
 }
