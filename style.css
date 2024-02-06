@@ -81,3 +81,16 @@ body {
   border-radius: 8px;
   justify-content: center;
 }
+
+input {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+
+
+/* label:hover img {
+  transform: rotateY(360deg);
+} */
+/* im trying to make an rotation animation on hover (the label) if you know how to do it then feel free to help out */
