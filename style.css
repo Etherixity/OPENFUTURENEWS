@@ -1,7 +1,7 @@
 html {
   height: 100%;
   width: 100%;
-  background:  linear-gradient(to bottom,#2b288a,#9490fc);
+  background: linear-gradient(to bottom, #2b288a, #9490fc);
   font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
 }
 
@@ -57,8 +57,9 @@ body {
 
 .logo a {
   text-decoration: none;
-  font-family:'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
 }
+
 .navbar .navbutton:hover {
   position: relative;
   -webkit-text-fill-color: transparent;
@@ -88,6 +89,7 @@ body {
     width: 0%;
     left: 50%
   }
+
   100% {
     width: 100%;
   }
@@ -97,6 +99,7 @@ body {
   0% {
     width: 100%;
   }
+
   100% {
     width: 0%;
     left: 50%

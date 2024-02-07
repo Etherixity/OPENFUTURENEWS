@@ -14,3 +14,4 @@ const updatePostContent = () => {
 };
 
 setInterval(updatePostContent, 5000);
+
